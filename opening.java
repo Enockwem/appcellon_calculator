@@ -6,6 +6,9 @@ public class Testing{
 		System.out.printf("%15s\n", "2.Subtract");
 		System.out.printf("%15s\n", "3.Miltiply");
 		System.out.printf("%13s", "4.Divide");
+		//Scanner object
+		java.util.Scanner scan = new java.util.Scanner(System.in);
+		System.out.println("Enter your Choice here");
 		
 		
 	}
