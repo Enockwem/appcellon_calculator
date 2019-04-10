@@ -7,24 +7,23 @@ import org.junit.jupiter.api.Test;
 class Mytest {
 	Testmethod mtesting = new Testmethod();
 	@Test
-	void test() {
+	void Addtest() {
 		
 		int result = mtesting.Add(15, 14);
 		assertEquals(29,result);
-		
 	}
 	@Test
-	void subtest() {
+	void Subtest() {
 		int result = mtesting.Subtract(15, 14);
 		assertEquals(1,result,"This is correct");
 	}
 	@Test
-	void multest() {
+	void Multest() {
 		double result = mtesting.Multiply(15,2);
 		assertEquals(30,result);
 	}
 	@Test
-	void divtest() {
+	void Divtest() {
 		double result = mtesting.Divide(10,2);
 		assertEquals(5,result);
 	}
