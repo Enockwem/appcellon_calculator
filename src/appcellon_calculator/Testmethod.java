@@ -1,6 +1,8 @@
 package appcellon_calculator;
+import java.util.Arrays;
 
 public class Testmethod {
+	Character[] enock;
 	// Method for adding 
 	public int Add(int num1,int num2) {
 		int sum = num1 + num2;
@@ -21,5 +23,6 @@ public class Testmethod {
 		double mult = (num1 * num2);
 		return (double) mult;
 	}
+	
 	
 }
